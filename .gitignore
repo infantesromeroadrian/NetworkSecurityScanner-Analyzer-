@@ -1,0 +1,17 @@
+# Archivos de configuración
+.env
+.env.*
+
+# Resultados y logs
+results/
+logs/
+*.log
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entorno virtual
+venv/
+env/ 

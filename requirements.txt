@@ -1,0 +1,26 @@
+# Network and Security
+socket>=0.1.0
+networkx>=3.1
+matplotlib>=3.7.1
+
+# AI and Analysis
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# Async Support
+asyncio>=3.4.3
+
+# Type Hints
+typing-extensions>=4.7.1
+
+# Visualization
+tkinter>=8.6
+
+# Development Tools
+pytest>=7.4.0
+black>=23.7.0
+flake8>=6.1.0
+
+# Optional - for Jupyter Notebooks
+jupyter>=1.0.0
+ipython>=8.12.0 
