@@ -67,16 +67,18 @@ python src/main.py
 - Actionable recommendations
 
 ## Project Structure 📁
-network-security-scanner/
-├── src/
-│   ├── network_scanner.py
-│   ├── vulnerability_scanner.py
-│   ├── network_visualizer.py
-│   ├── ai_analyzer.py
-│   └── main.py
-├── requirements.txt
-├── .env.example
-└── README.md
+src/
+├── main.py # Punto de entrada principal
+├── network_analyzer.py # Análisis básico de red
+├── traffic_monitor.py # Monitoreo de tráfico
+├── security_analyzer.py # Análisis de seguridad
+├── device_identifier.py # Identificación de dispositivos
+├── network_scanner.py # Escaneo de red
+├── vulnerability_scanner.py # Escaneo de vulnerabilidades
+├── ai_analyzer.py # Análisis de IA
+├── visualizer.py # Visualización de datos
+└── report_generator.py # Generación de reportes
+reports/ # Reportes generados
 
 ## Security Considerations 🔒
 - Only scan networks you have permission to analyze
